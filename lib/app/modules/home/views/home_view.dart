@@ -13,7 +13,11 @@ class HomeView extends GetView<HomeController> {
       appBar: _buildAppBar(),
       body: Obx(
         () => controller.isLodiang.value
-            ? BuildLoading()
+            ? controller.listItem!.length == 0
+                ? Center(
+                    child: Text("Tidak Ada Data"),
+                  )
+                : BuildLoading()
             : RefreshIndicator(
                 onRefresh: _onRefresh,
                 child: _buildContaint(result: controller.listItem),
