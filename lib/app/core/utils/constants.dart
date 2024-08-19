@@ -1,0 +1,2 @@
+const baseUrl = "https://wcvwzbqreqpjpcodmuil.supabase.co/rest/v1";
+const apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indjdnd6YnFyZXFwanBjb2RtdWlsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjQwNDYzMTYsImV4cCI6MjAzOTYyMjMxNn0.GVOWxG-YyEA6vbb24ojB4UF1IRXiOhoKgvoDMmRnwlU";
